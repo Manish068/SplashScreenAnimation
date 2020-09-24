@@ -1,0 +1,2 @@
+# SplashScreenAnimation
+ AnimationAssets
