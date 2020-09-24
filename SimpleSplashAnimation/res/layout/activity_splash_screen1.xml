@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:background="#201E1E"
+    android:theme="@style/AppTheme.noActionBar"
+    tools:context=".view.activity.splashExample.SimpleSplashAnimation.SimpleSplashAnimation"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <View
+            android:id="@+id/firstArrow"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:background="@drawable/white_arrow"
+            android:layout_centerHorizontal="true"
+            />
+        <View
+            android:id="@+id/SecondArrow"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:background="@drawable/red_arrow"
+            android:layout_toRightOf="@+id/firstArrow"
+            />
+
+        <View
+            android:id="@+id/thirdArrow"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:background="@drawable/green_arrow"
+            android:layout_toRightOf="@+id/SecondArrow"
+            />
+
+        <View
+            android:id="@+id/fourthArrow"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:background="@drawable/red_arrow"
+            android:layout_toRightOf="@+id/thirdArrow"
+            />
+
+        <View
+            android:id="@+id/fifthArrow"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:background="@drawable/white_arrow"
+            android:layout_toRightOf="@id/fourthArrow"
+            />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/baloo"
+            android:text="Manish"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@android:color/white" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/textViewAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:text="@string/app_name"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@android:color/white" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

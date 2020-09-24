@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/medicalSplashBg"
+    tools:context=".view.activity.splashExample.MedicineBox.MedicineBox_LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageViewCapsule"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/ic_capsule" />
+
+    <TextView
+        android:id="@+id/textViewMedicalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewCapsule"
+        android:layout_alignStart="@id/imageViewCapsule"
+        android:layout_alignEnd="@id/imageViewCapsule"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/jockey_one"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/medical_box"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_25ssp" />
+
+    <TextView
+        android:id="@+id/textViewMedicalSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewMedicalBox"
+        android:layout_alignStart="@id/textViewMedicalBox"
+        android:layout_alignEnd="@id/textViewMedicalBox"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/MedicalAppSlogan"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_16ssp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/LoginCardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewMedicalSlogan"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_20sdp"
+
+        android:padding="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/medicalSplashBg"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:cardElevation="2dp"
+                app:strokeColor="#33967E"
+                app:strokeWidth="@dimen/_1sdp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email:"
+                    android:theme="@style/TextInputLayoutStyle">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/medicalSplashBg"
+
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:cardElevation="2dp"
+                app:strokeColor="#33967E"
+                app:strokeWidth="@dimen/_1sdp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="password:"
+                    android:theme="@style/TextInputLayoutStyle"
+                    app:endIconDrawable="@drawable/ic_eye"
+
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/medicalSplashBg"
+
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:backgroundTint="#33967E"
+                android:elevation="@dimen/_5sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Login"
+                app:cornerRadius="@dimen/_10sdp"
+                app:strokeColor="@color/medicalSplashBg"
+                app:strokeWidth="@dimen/_1sdp" />
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>

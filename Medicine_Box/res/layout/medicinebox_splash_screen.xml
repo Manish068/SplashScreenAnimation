@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/medicalSplashBg"
+    tools:context=".view.activity.splashExample.MedicineBox.MedicineBoxSplashScreen">
+
+    <ImageView
+        android:id="@+id/imageViewCapsule"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/ic_capsule"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/textViewMedicalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/jockey_one"
+        android:includeFontPadding="false"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/medical_box"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_25ssp"
+        app:layout_constraintEnd_toEndOf="@id/imageViewCapsule"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCapsule"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCapsule" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

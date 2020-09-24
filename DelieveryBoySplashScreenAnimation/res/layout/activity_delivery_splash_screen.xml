@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".view.activity.splashExample.DeliverySplashScreen.DeliverySplashScreen">
+
+    <TextView
+        android:id="@+id/textViewFoodDelivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:fontFamily="@font/milonga"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/food_delivery"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        android:includeFontPadding="false"
+        android:visibility="invisible"
+        />
+    
+    <ImageView
+        android:id="@+id/imageviewDeliveryBoy"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/food_deliveryboy"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/textViewSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/slogan"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="@dimen/_100sdp"
+        android:textSize="@dimen/_20ssp"
+        android:visibility="invisible"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/black"
+        />
+
+
+
+</FrameLayout>
