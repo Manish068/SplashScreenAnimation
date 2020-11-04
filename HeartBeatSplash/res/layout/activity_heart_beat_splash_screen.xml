@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.splashExample.HeartBeatScreen.HeartBeatSplashScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_Top"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_wave_top"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_16sdp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:id="@+id/iv_heart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_heart"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_HeartBeat"
+            android:textSize="@dimen/_40ssp"
+            android:textColor="#D75A4A"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_8sdp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_HeartBeat"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_bottom"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_wave_bottom"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        />
+
+</RelativeLayout>
