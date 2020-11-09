@@ -1,5 +1,9 @@
+Implement a MedicineBox Screen
+===============
+Hello Developer,
 
-# The right way to implement a MedicineBox Splash Screen
+Here are simple steps you just need to follow
+
 ### Step 1:
 Open the java  package and Copy .class file and paste it in your Project java package
 
