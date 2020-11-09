@@ -1,6 +1,9 @@
-
- The right way to implement a Ebook Splash Screen
+Implement a Ebook Splash Screen
 ===============
+Hello Developer,
+
+Here are simple steps you just need to follow
+
 ### Step 1:
 Open ***build.gradle*** file and implement this line:
 ```sh
