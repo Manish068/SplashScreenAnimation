@@ -10,3 +10,14 @@ Open the java  package and Copy .class file and paste it in your Project java pa
 
 ### Step 2: 
 Open res file and paste it in you project.
+
+### Step 3:
+
+Copy this line in your **res/value/color.xml** file
+
+```sh   
+<color name="twitterbackground">#1DA1F2</color>
+```
+
+
+       
