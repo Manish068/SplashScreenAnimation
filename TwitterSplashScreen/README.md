@@ -9,7 +9,7 @@ Here are simple steps you just need to follow
 Open the java  package and Copy .class file and paste it in your Project java package
 
 ### Step 2: 
-Open res file and paste it in you project.
+Open res file and Copy all the folders and paste it in your project.
 
 ### Step 3:
 
