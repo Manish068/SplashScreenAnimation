@@ -14,8 +14,7 @@ Open ***build.gradle*** file and implement this line:
 Open the java  package and Copy .class file and paste it in your Project java package
 
 ### Step 3: 
-Open res file and paste it in you project.
-
+Open res file and Copy all the folders and paste it in your project.
 
 ### Step 3:
 
