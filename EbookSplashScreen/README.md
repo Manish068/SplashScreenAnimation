@@ -16,7 +16,7 @@ Open the java  package and Copy .class file and paste it in your Project java pa
 ### Step 3: 
 Open res file and Copy all the folders and paste it in your project.
 
-### Step 3:
+### Step 4:
 
 Copy this line in your **res/value/color.xml** file
 ```sh
