@@ -13,6 +13,13 @@ Open ***build.gradle*** file and implement this line:
 ### Step 2:
 Open the java  package and Copy .class file and paste it in your Project java package
 
-### Step 2: 
+### Step 3: 
 Open res file and paste it in you project.
 
+
+### Step 3:
+
+Copy this line in your **res/value/color.xml** file
+```sh
+ <color name="e_book_Bg_Color">#694ACE</color>
+```
